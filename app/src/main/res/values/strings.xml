@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="sign_up"><u>注册</u></string>
+    <string name="app_name">Leaning_English</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="usPhonetic">音标</string>
+    <string name="word">word</string>
+    <string name="load_words">
+        你有三点血量，每答错一个单词扣一点生命，每个单词有五秒的选择时间；
+        利用你的词汇量尽可能快的挑战尽可能多的单词吧！
+    </string>
+    <string name="congratulation">太强辣！你就是当代词圣！</string>
+</resources>

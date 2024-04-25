@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/text_item_phrase_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eng"
+        android:textColor="@color/colorFontInWhite"
+        tools:text="open access" />
+
+    <TextView
+        android:id="@+id/text_item_phrase_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorLittleWhiteN"
+        tools:text="开放获取 ; 开放存取 ; 开架阅览 ; 存取" />
+</LinearLayout>

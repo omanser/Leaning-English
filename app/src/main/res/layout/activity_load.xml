@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".activity.ui.game.LoadActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_book"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/imageView_next"
+        android:layout_below="@id/textView16" />
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_load_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/icon_left_black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/load_words"
+        android:textColor="@color/material_dynamic_neutral60"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:max="100"
+        android:progress="100"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_load_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/progressBar2"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_toLeftOf="@id/imageView_next"
+        android:text="进入挑战"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView_next"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/textView_load_continue"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon_next" />
+</RelativeLayout>
